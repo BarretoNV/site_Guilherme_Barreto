@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fira code, 'sans-serif';
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    min-height: 100vh;
+    background-image: url('./images/fundo_vermelho.png');
+}
+
+.header {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Poppins, 'sans-serif';
+}
+
+.header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.header ul li a:hover,
+.header ul li a:active {
+    background: white;
+    color: red;
+}
+
+#aureabutton:hover,
+#aureabutton:active {
+    background: #dbb826;
+    color: #575855;
+}
+
+.startHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 100%;
+}
+
+.greetings {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.greetings h1 {
+    text-align: center;
+    color: #640000;
+}
+
+.greetings h2 {
+    text-align: center;
+    color: #640000;
+}
+
+.devXP {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.devXP img {
+    margin-top: 15px;
+}
+
+.timelineXP {
+    display: flex;
+    flex-direction: column;
+}
+
+.timelineXP h1 {
+    color: #640000; 
+}
+
+.timelineXP h3 {
+    margin: 15px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #640000; 
+}
+
+.timelineXP h4 {
+    color: #640000; 
+}
+
+.projectsXP {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url('./images/fundo_vermelho.png');
+}
+
+.projectsXP h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+}
+
+.projectsXP h2 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+
+.rowXP {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.singleProject {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.singleProject img {
+    width: 100px;
+}
+
+.singleProject b, p {
+    color: #640000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.devTechXP {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devTechXP h1 {
+    color: white;
+    margin: 20px;
+}
+
+.rowTechXP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.singleTechnology {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.singleTechnology img {
+    width: 100px;
+}
+
+.singleTechnology b{
+    color: #640000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.designXP {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.designXP h1 {
+    color: #640000;
+}
+
+.designXP img {
+    margin-top: 15px;
+}
+
+.worksXP {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url('./images/fundo_vermelho.png');
+}
+
+.worksXP h1 {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.desProgXP {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.desProgXP h1 {
+    color: white;
+    margin: 20px;
+}
+
+.rowProgXP {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.singleProgram {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.singleProgram img {
+    width: 100px;
+}
+
+.singleProgram b{
+    color: #640000;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.forms {
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.forms p {
+    color: #640000;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.forms h2 {
+    text-align: center;
+    color: #640000;
+}
+
+
+.forms h3 {
+    text-align: center;
+    color: #640000;
+}
+
+.footer {
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1 {
+    color: white;
+    margin: 25px;
+}
+
+.footer .logo {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Poppins, 'sans-serif';
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+
+.footer ul li a:hover,
+.footer ul li a:active {
+    background: white;
+    color: red;
+}
+
+#aureabutton:hover,
+#aureabutton:active {
+    background: #dbb826;
+    color: #575855;
+}
+
+#backTop {
+    background-color: white;
+    color: #640000;
+}
+
+#backTop:hover,
+#backTop:active {
+    background: black;
+    color: red;
+}
+
+.footer h4 {
+    color: white;
+    margin-top: 15px;
+}
