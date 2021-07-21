@@ -347,7 +347,7 @@
     color: white;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
+    font-size: 1.5em;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: Poppins, 'sans-serif';
@@ -440,7 +440,7 @@
     .header .logo {
         color: white;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-transform: uppercase;
         letter-spacing: 2px;
         display: flex;
@@ -805,7 +805,7 @@
     .footer .logo {
         color: white;
         text-decoration: none;
-        font-size: 1.5em;
+        font-size: 1.4em;
         text-transform: uppercase;
         letter-spacing: 2px;
         display: flex;

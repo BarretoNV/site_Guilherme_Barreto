@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from "react";
 import './style.css';
 
 import gif1 from './images/gif1.gif';
@@ -34,6 +34,7 @@ import photoshopLogo from './images/photoshop-logo-2.png';
 import premiereLogo from './images/adobe-premiere-pro-logo-2.png';
 import canvaLogo from './images/canva-logo-2.png';
 
+
 function Home() {
 
     return (
@@ -46,7 +47,7 @@ function Home() {
 
                     <div className="startHeader">
 
-                        <a href="#/" className="logo">Guilherme Barreto</a>
+                        <a href="#/" className="logo">Guilherme Barreto v0.1</a>
                         <ul>
                             <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
                             <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
@@ -85,7 +86,7 @@ function Home() {
                     <div className="projectsXP">
 
                         <h1>Projetos que fiz parte</h1>
-                        <h2>Clique nas imagens para ver o projeto!</h2>
+                        <h2>Em breve demonstrações dos projetos!</h2>
 
                         <div className="rowXP">
 
@@ -268,14 +269,14 @@ function Home() {
 
                     <div className="startHeader">
 
-                        <a href="#/" className="logo">Guilherme Barreto</a>
+                        <a href="#/" className="logo">Guilherme Barreto v0.1</a>
                         <ul>
                             <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
                             <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
                             <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
                             <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
                             <li><a href="https://aureaej.com/" target="_blank" id="aureabutton" rel="noreferrer">Aurea</a></li>
-                            <li><a href="!#" id="backTop">Voltar para o topo</a></li>
+                            <li><a href="/" id="backTop">Voltar para o topo</a></li>
                         </ul>
 
                     </div>
