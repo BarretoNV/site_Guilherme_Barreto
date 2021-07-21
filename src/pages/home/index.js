@@ -47,13 +47,13 @@ function Home() {
 
                     <div className="startHeader">
 
-                        <a href="#" className="logo">Guilherme Barreto</a>
+                        <a href="#/" className="logo">Guilherme Barreto</a>
                         <ul>
-                            <li><a href="https://github.com/BarretoNV" target="_blank">github</a></li>
-                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank">linkedin</a></li>
-                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank">instagram de design</a></li>
-                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank">instagram</a></li>
-                            <li><a href="https://aureaej.com/" target="_blank" id="aureabutton">Aurea</a></li>
+                            <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
+                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
+                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
+                            <li><a href="https://aureaej.com/" target="_blank" rel="noreferrer" id="aureabutton">Aurea</a></li>
                         </ul>
                     </div>
                     <div className="greetings">
@@ -266,14 +266,14 @@ function Home() {
 
                     <div className="startHeader">
 
-                        <a href="#" className="logo">Guilherme Barreto</a>
+                        <a href="#/" className="logo">Guilherme Barreto</a>
                         <ul>
-                            <li><a href="https://github.com/BarretoNV" target="_blank">github</a></li>
-                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank">linkedin</a></li>
-                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank">instagram de design</a></li>
-                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank">instagram</a></li>
-                            <li><a href="https://aureaej.com/" target="_blank" id="aureabutton">Aurea</a></li>
-                            <li><a href="#" id="backTop">Voltar para o topo</a></li>
+                            <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
+                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
+                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
+                            <li><a href="https://aureaej.com/" target="_blank" id="aureabutton" rel="noreferrer">Aurea</a></li>
+                            <li><a href="#/" id="backTop">Voltar para o topo</a></li>
                         </ul>
 
                     </div>
