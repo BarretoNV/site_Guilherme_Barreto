@@ -35,7 +35,6 @@ import premiereLogo from './images/adobe-premiere-pro-logo-2.png';
 import canvaLogo from './images/canva-logo-2.png';
 
 function Home() {
-    
 
     return (
 
@@ -55,11 +54,14 @@ function Home() {
                             <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
                             <li><a href="https://aureaej.com/" target="_blank" rel="noreferrer" id="aureabutton">Aurea</a></li>
                         </ul>
+                        
                     </div>
+
                     <div className="greetings">
                         <h1>Prazer em te ver aqui!</h1>
                         <h2> Sou desenvolvedor, designer e fotógrafo amador, atualmente estou cursando Engenharia de Computação no Instituto Federal Fluminense </h2>
                     </div> 
+
                 </div>
 
                 <div className="devXP">
@@ -273,7 +275,7 @@ function Home() {
                             <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
                             <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
                             <li><a href="https://aureaej.com/" target="_blank" id="aureabutton" rel="noreferrer">Aurea</a></li>
-                            <li><a href="#/" id="backTop">Voltar para o topo</a></li>
+                            <li><a href="!#" id="backTop">Voltar para o topo</a></li>
                         </ul>
 
                     </div>
