@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import './style.css';
 
 import gif1 from './images/gif1.gif';
