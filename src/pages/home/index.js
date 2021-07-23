@@ -1,6 +1,4 @@
 import React, {useState, createRef} from 'react'
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import './style.css';
 
 import gif1 from './images/gif1.gif';
