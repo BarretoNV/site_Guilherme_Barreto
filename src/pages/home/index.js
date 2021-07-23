@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useState, createRef} from 'react'
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import './style.css';
 
 import gif1 from './images/gif1.gif';
@@ -37,6 +39,18 @@ import canvaLogo from './images/canva-logo-2.png';
 
 function Home() {
 
+    const [isChecked,setIsChecked] = useState(false);
+    const menuMobile = createRef();
+
+    function showMenuMobile() {
+
+        if (isChecked)
+            menuMobile.current.style.display = 'none'
+        else
+            menuMobile.current.style.display = 'flex'
+        
+    }
+
     return (
 
         <div className="main">
@@ -56,6 +70,39 @@ function Home() {
                             <li><a href="https://aureaej.com/" target="_blank" rel="noreferrer" id="aureabutton">Aurea</a></li>
                         </ul>
                         
+                    </div>
+
+                    <div className="sandwich" >
+
+                        <input type="checkbox" id="checkbox" onClick={ () => {
+
+                            setIsChecked(!isChecked);
+                            showMenuMobile()
+
+                        }} />
+
+                        <label htmlFor="checkbox" >
+
+                            <span></span>
+                            <span></span>
+                            <span></span>
+
+                        </label>
+
+                    </div>
+
+                    <div className='menu-mobile' ref = {menuMobile} >
+
+                        <ul>
+                            
+                            <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
+                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
+                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
+                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
+                            <li><a href="https://aureaej.com/" target="_blank" rel="noreferrer" id="aureabutton">Aurea</a></li>
+
+                        </ul>
+
                     </div>
 
                     <div className="greetings">
@@ -271,11 +318,6 @@ function Home() {
 
                         <a href="#/" className="logo">Guilherme Barreto v0.1</a>
                         <ul>
-                            <li><a href="https://github.com/BarretoNV" target="_blank" rel="noreferrer">github</a></li>
-                            <li><a href="https://www.linkedin.com/in/guibarreto" target="_blank" rel="noreferrer">linkedin</a></li>
-                            <li><a href="https://www.instagram.com/gbarretodesign/?hl=pt-br" target="_blank" rel="noreferrer">instagram de design</a></li>
-                            <li><a href="https://www.instagram.com/barretonvilas/?hl=pt-br" target="_blank" rel="noreferrer">instagram</a></li>
-                            <li><a href="https://aureaej.com/" target="_blank" id="aureabutton" rel="noreferrer">Aurea</a></li>
                             <li><a href="/" id="backTop">Voltar para o topo</a></li>
                         </ul>
 
